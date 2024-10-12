@@ -1,0 +1,51 @@
+:root {
+  --fnt_primary: "Poppins", sans-serif;
+  --clr_royal_blue: #2405f2;
+  --clr_dark_blue: #282938;
+  --clr_tint_blue: #1c1e53;
+  --clr_grey: #f4f6fc;
+  --clr_yellow: #fcd980;
+  --clr_accent: #eef4fa;
+  --clr_text_faded: #282938;
+  --trn_delay: ease-in 0.3s;
+}
+.secpad {
+    padding: 128px 0;
+}
+/* ===============Typography============ */
+.heading-1 {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+}
+.heading-2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+.heading-3 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.heading-5 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+}
+.heading-6 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+.larger-text {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.regularText {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: var(--clr_text_faded);
+}
